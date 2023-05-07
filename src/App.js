@@ -6,9 +6,9 @@ import  ItemListContainer  from "./components/ItemListContainer/ItemListContaine
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-  const onAdd = (stock) => console.log("Stock Actualizado: " + stock);
+  const onAdd = (stock) => console.log("Stock Actualizado: " + stock)
+
   return (
-    <>
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -28,9 +28,6 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
-
-      <ItemListContainer greeting="El Viejo Coronel - Tienda de Vinos" />
-    </>
   );
 }
 

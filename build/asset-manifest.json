@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f87d0baa.css",
+    "main.js": "/static/js/main.a511980c.js",
+    "static/media/Icono Carrito Azul.png": "/static/media/Icono Carrito Azul.640fbfc61755f259284f.png",
+    "index.html": "/index.html",
+    "main.f87d0baa.css.map": "/static/css/main.f87d0baa.css.map",
+    "main.a511980c.js.map": "/static/js/main.a511980c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87d0baa.css",
+    "static/js/main.a511980c.js"
+  ]
+}
