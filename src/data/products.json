@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Atamisque Assemblage",
-		"avatar": "src/components/CartWidget/assets/img/atamisque-assamblage.png",
+		"avatar": "../img/atamisque-assamblage.png",
 		"stock": 35,
 		"category": "vinos",
 		"id": "1",
@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Atamisque Cavernet Sauvignon",
-		"avatar": "src/components/CartWidget/assets/img/atamisque-cabernet-sauvignon.png",
+		"avatar": "../img/atamisque-cabernet-sauvignon.png",
 		"stock": 10,
 		"category": "vinos",
 		"id": "2",
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Atamisque Chardonnay",
-		"avatar": "src/components/CartWidget/assets/img/atamisque-chardonnay.png",
+		"avatar": "../img/atamisque-chardonnay.png",
 		"stock": 83,
 		"category": "vinos",
 		"id": "3",
@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Atamisque Malbec",
-		"avatar": "src/components/CartWidget/assets/img/atamisque-malbec.png",
+		"avatar": "../img/atamisque-malbec.png",
 		"stock": 27,
 		"category": "vinos",
 		"id": "4",
@@ -33,7 +33,7 @@
 	},
 	{
 		"name": "Atamisque Petit Verdot",
-		"avatar": "src/components/CartWidget/assets/img/atamisque-petit.png",
+		"avatar": "../img/atamisque-petit.png",
 		"stock": 89,
 		"category": "vinos",
 		"id": "5",
@@ -41,39 +41,25 @@
 	},
 	{
 		"name": "Catalpa Assemblage",
-		"avatar": "src/components/CartWidget/assets/img/catalpa-assamblage.png",
+		"avatar": "../img/catalpa-assamblage.png",
 		"stock": 73,
 		"category": "vinos",
 		"id": "6",
 		"price": 4500
 	},
-	{
-		"name": "Catalpa Cavernet Franc",
-		"avatar": "src/components/CartWidget/assets/img/catalpa-cabernet-franc.jpeg",
-		"stock": 62,
-		"category": "vinos",
-		"id": "7",
-		"price": 4500
-	},
+	
 	{
 		"name": "Catalpa Cavernet Sauvignon",
-		"avatar": "src/components/CartWidget/assets/img/catalpa-cabernet-sauvignon.png",
+		"avatar": "../img/catalpa-cabernet-sauvignon.png",
 		"stock": 62,
 		"category": "vinos",
 		"id": "8",
 		"price": 4500
 	},
-	{
-		"name": "Catalpa Chardonnay",
-		"avatar": "src/components/CartWidget/assets/img/catalpa-chardonnay.png",
-		"stock": 5,
-		"category": "vinos",
-		"id": "9",
-		"price": 4500
-	},
+	
 	{
 		"name": "Catalpa Merlot",
-		"avatar": "src/components/CartWidget/assets/img/catalpa-merlot.png",
+		"avatar": "../img/catalpa-merlot.png",
 		"stock": 60,
 		"category": "vinos",
 		"id": "10",
@@ -81,7 +67,7 @@
 	},
 	{
 		"name": "Catalpa Pinot Noir",
-		"avatar": "src/components/CartWidget/assets/img/catalpa-pinot-noir.png",
+		"avatar": "../img/catalpa-pinot-noir.png",
 		"stock": 57,
 		"category": "vinos",
 		"id": "11",
@@ -89,7 +75,7 @@
 	},
 	{
 		"name": "Cave Extreme Rose",
-		"avatar": "src/components/CartWidget/assets/img/cave-extreme-rose.jpg",
+		"avatar": "../img/cave-extreme-rose.jpg",
 		"stock": 14,
 		"category": "Espumantes",
 		"id": "12",
@@ -97,7 +83,7 @@
 	},
 	{
 		"name": "Cave Extreme Extra Brut",
-		"avatar": "src/components/CartWidget/assets/img/espumante-cave-extreme-extraBrut.png",
+		"avatar": "../img/espumante-cave-extreme-extraBrut.png",
 		"stock": 5,
 		"category": "Espumantes",
 		"id": "13",
@@ -105,7 +91,7 @@
 	},
 	{
 		"name": "Rochebouet Extra Brut",
-		"avatar": "src/components/CartWidget/assets/img/espumante-roche-extraBrut.png",
+		"avatar": "../img/espumante-roche-extraBrut.png",
 		"stock": 52,
 		"category": "Espumantes",
 		"id": "14",
@@ -113,7 +99,7 @@
 	},
 	{
 		"name": "Rochebouet Rose",
-		"avatar": "src/components/CartWidget/assets/img/espumante-roche-rose.png",
+		"avatar": "../img/espumante-roche-rose.png",
 		"stock": 83,
 		"category": "Espumantes",
 		"id": "15",
@@ -121,7 +107,7 @@
 	},
 	{
 		"name": "JW Double Blach x 1 Lts",
-		"avatar": "src/components/CartWidget/assets/img/johnnie-walker-double-black-1L.jpg",
+		"avatar": "../img/johnnie-walker-double-black-1L.jpg",
 		"stock": 80,
 		"category": "Whiskys",
 		"id": "16",
@@ -129,7 +115,7 @@
 	},
 	{
 		"name": "JW Black Leabel x 1 Lts",
-		"avatar": "src/components/CartWidget/assets/img/JohnnieBL-1Lts.jpg",
+		"avatar": "../img/JohnnieBL-1Lts.jpg",
 		"stock": 52,
 		"category": "Whiskys",
 		"id": "17",
@@ -137,7 +123,7 @@
 	},
 	{
 		"name": "JW Gold Leabel x 1 Lts",
-		"avatar": "src/components/CartWidget/assets/img/jwgoldreserve_botella_alta_1L.jpg",
+		"avatar": "../img/jwgoldreserve_botella_alta_1L.jpg",
 		"stock": 83,
 		"category": "Whiskys",
 		"id": "18",
@@ -145,7 +131,7 @@
 	},
 	{
 		"name": "Serbal Assemblage",
-		"avatar": "src/components/CartWidget/assets/img/serbal-assamblage.png",
+		"avatar": "../img/serbal-assamblage.png",
 		"stock": 80,
 		"category": "vinos",
 		"id": "19",
@@ -153,7 +139,7 @@
 	},
 	{
 		"name": "Serbal Cavernet Franc",
-		"avatar": "src/components/CartWidget/assets/img/serbal-cfranc.png",
+		"avatar": "../img/serbal-cfranc.png",
 		"stock": 52,
 		"category": "vinos",
 		"id": "20",
@@ -161,7 +147,7 @@
 	},
 	{
 		"name": "Serval Chardonnay",
-		"avatar": "src/components/CartWidget/assets/img/serbal-chardonnay.png",
+		"avatar": "../img/serbal-chardonnay.png",
 		"stock": 83,
 		"category": "vinos",
 		"id": "21",
@@ -169,23 +155,16 @@
 	},
 	{
 		"name": "Serbal Malbec",
-		"avatar": "src/components/CartWidget/assets/img/serbal-malbec.png",
+		"avatar": "../img/serbal-malbec.png",
 		"stock": 80,
 		"category": "vinos",
 		"id": "22",
 		"price": 2600
 	},
-	{
-		"name": "Serbal Petit Verdot",
-		"avatar": "src/components/CartWidget/assets/img/serbal-petit-verdot.jpg",
-		"stock": 52,
-		"category": "vinos",
-		"id": "23",
-		"price": 2600
-	},
+	
 	{
 		"name": "Serbal Pinot Noir",
-		"avatar": "src/components/CartWidget/assets/img/serbal-pinot.png",
+		"avatar": "../img/serbal-pinot.png",
 		"stock": 83,
 		"category": "vinos",
 		"id": "24",
@@ -193,7 +172,7 @@
 	},
 	{
 		"name": "Serbal Rose de Malbec",
-		"avatar": "src/components/CartWidget/assets/img/serbal-rose.png",
+		"avatar": "../img/serbal-rose.png",
 		"stock": 80,
 		"category": "vinos",
 		"id": "25",
@@ -201,7 +180,7 @@
 	},
 	{
 		"name": "Serbal Sauvignon Blanc",
-		"avatar": "src/components/CartWidget/assets/img/serbal-sauvignon-blanc.png",
+		"avatar": "../img/serbal-sauvignon-blanc.png",
 		"stock": 52,
 		"category": "vinos",
 		"id": "26",
@@ -210,7 +189,7 @@
 	
 	{
 		"name": "Serbal Viognier",
-		"avatar": "src/components/CartWidget/assets/img/serbal-viognier.png",
+		"avatar": "../img/serbal-viognier.png",
 		"stock": 80,
 		"category": "vinos",
 		"id": "27",

@@ -1,5 +1,6 @@
 import  ItemCounter  from "../ItemCounter/ItemCounter"
 
+
 const ItemDetail = ({ product, onAdd }) => {
 	return (
 		<div>
