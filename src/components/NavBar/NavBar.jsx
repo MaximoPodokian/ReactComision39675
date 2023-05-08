@@ -21,7 +21,7 @@ const NavBar = () => {
   return (
     <Navbar bg="primary" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">El Viejo Coronel</Navbar.Brand>
+        <Navbar.Brand href="#home" >El Viejo Coronel</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">home</Nav.Link>{itemsMenu?.map(item => (<NavLink key={item} to={`/category/${item}`}>
             {item.toUpperCase()}
