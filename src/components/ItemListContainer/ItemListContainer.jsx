@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 
 import products from "../../data/products.json";
 import ItemList  from "../ItemList/ItemList";
+import "./ItemListContainer.css";
 
 const ItemListContainer = ({ greeting }) => {
   const [list, setList] = useState([]);
@@ -30,7 +31,7 @@ const ItemListContainer = ({ greeting }) => {
   )}, [id])
 
   return (
-    <Container className="mt-4">
+    <Container className="mt-4" >
       <h1>{greeting}</h1>
       <ItemList list={list} />
     </Container>
