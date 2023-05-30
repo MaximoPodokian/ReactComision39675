@@ -9,10 +9,14 @@ const Item = ({ item }) => (
 		key={item.id}
 		className="float-start"
 	>
-		<Card.Img variant="top" src={item.avatar} />
+		<div> style={{overflow: "hidden", heigt:250}}
+		<Card.Img variant="top" src={item.imageId} />
+		</div>
+
 		<Card.Body>
 			<Card.Title>{item.name}</Card.Title>
 			<Card.Text>Categoría: {item.category}</Card.Text>
+			<Card.Text>{item.description}</Card.Text>
 			<Link to={`/item/${item.id}`}>
 				<Button variant="primary">Ver detalle</Button>
 			</Link>
