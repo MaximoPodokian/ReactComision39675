@@ -1,6 +1,6 @@
-import { Item } from "../Item/Item";
+import Item  from "../Item/Item";
 
-export const ItemList = ({ items }) =>
+const ItemList = ({ items }) =>
   !items.length ? (
     <span>Loading</span>
   ) : (
@@ -8,5 +8,5 @@ export const ItemList = ({ items }) =>
   );
 
 
-
+export default ItemList;
 
