@@ -12,7 +12,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const db = getFirestore();
-    const refCollection = collection(db, "items");
+    const refCollection = collection(db, "EVC");
 
     getDocs(refCollection).then((snapshot) => {
       if (snapshot.size === 0) console.log("no hay resultados");
