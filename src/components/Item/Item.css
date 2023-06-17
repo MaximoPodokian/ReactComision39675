@@ -1,0 +1,7 @@
+.tamañoImg{
+    display: flex;
+    max-height: 500px;
+    max-width: 60px;
+    justify-content: center;
+  
+}

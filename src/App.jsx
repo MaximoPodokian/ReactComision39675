@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import { CartProvider } from "./context/cartContext";
 import "./App.css";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
@@ -22,7 +21,6 @@ function App() {
             path="/category/:id"
             element={<ItemDetailContainer greeting="Carta de Productos" />}
           />
-
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>

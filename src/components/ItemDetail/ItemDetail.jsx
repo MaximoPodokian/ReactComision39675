@@ -9,9 +9,13 @@ const ItemDetail = ({ product }) => {
 
 	return (
 		<div>
-			<h1>{product.title}</h1>
-			<img src={product.imageId} heigth={300} alt={product.title} />
-			<p>$ {product.price}</p>
+			<h1>{product.nombre}</h1>
+			<img src={product.imagen} heigth={300} alt={product.tipo} />
+			<p>$ {product.precio}</p>
+			<p>Caracteristicas: {product.caracteristicas}</p>
+			<p>Composicion: {product.composicion}</p>
+			<p>Crianza: {product.crianza}</p>
+			<p>Maridaje: {product.maridaje}</p>
 			<ItemCounter stock={product.stock} onAdd={onAdd} />
 		</div>
 	)

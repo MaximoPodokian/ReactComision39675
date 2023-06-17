@@ -45,7 +45,7 @@ export const Cart = () => {
 	const total = () =>
 		productosAgregados.reduce(
 			(acumulador, valorActual) =>
-				acumulador + valorActual.quantity * valorActual.price,
+				acumulador + valorActual.quantity * valorActual.precio,
 			0
 		)
 
@@ -69,12 +69,12 @@ export const Cart = () => {
 						<tbody>
 							{productosAgregados.map(producto => (
 								<tr key={producto.id}>
-									<td>{producto.title}</td>
+									<td>{producto.nombre}</td>
 									<td>
 										<img
 											height={60}
-											src={producto.imageId}
-											alt={producto.title}
+											src={producto.imagen}
+											alt={producto.nombre}
 										/>
 									</td>
 									<td>{producto.price}</td>
