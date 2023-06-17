@@ -20,10 +20,10 @@ const ItemListContainer = ({ greeting }) => {
     const db = getFirestore();
 
     const refCollection = id
-      ? query(collection(db, "EVC"), where("categoryId", "==", id))
+      ? query(collection(db, "EVC"), where ("bebida", "==", id))
       : collection(db, "EVC");
 
-    getDocs(refCollection).them((snapshot) => {
+    getDocs(refCollection).then((snapshot) => {
       if (snapshot.size === 0) setList([]);
       else {
         setList(

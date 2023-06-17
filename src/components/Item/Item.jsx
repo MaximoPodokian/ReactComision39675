@@ -5,18 +5,18 @@ import Card from "react-bootstrap/Card"
 
 const Item = ({ item }) => (
 	<Card
-		style={{ width: "10rem" }}
+		style={{ width:"24 rem"}}
 		key={item.id}
 		className="float-start"
 	>
-		<div> style={{overflow: "hidden", heigt:250}}
-		<Card.Img variant="top" src={item.imageId} />
+		<div style={{overflow: "hidden", heigt:250}}>
+		<Card.Img variant="top" src={item.imagen} />
 		</div>
 
 		<Card.Body>
-			<Card.Title>{item.name}</Card.Title>
-			<Card.Text>Categoría: {item.category}</Card.Text>
-			<Card.Text>{item.description}</Card.Text>
+			<Card.Title>{item.nombre}</Card.Title>
+			<Card.Text>Categoría: {item.bebida}</Card.Text>
+			{/* <Card.Text>{item.caracteristica}</Card.Text> */}
 			<Link to={`/item/${item.id}`}>
 				<Button variant="primary">Ver detalle</Button>
 			</Link>

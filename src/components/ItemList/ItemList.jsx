@@ -1,12 +1,14 @@
 import Item  from "../Item/Item";
 
-const ItemList = ({ items }) =>
-  !items.length ? (
+const ItemList = ({ list }) =>{
+  return(
+  !list.length ? (
     <span>Loading</span>
   ) : (
-    items.map(item => <Item key={item.id} item={item} />)
-  );
-
+    list.map(list => <Item key={list.id} item={list} />)
+  )
+  )
+  }
 
 export default ItemList;
 

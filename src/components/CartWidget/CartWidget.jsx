@@ -7,7 +7,7 @@ import cart from "./assets/Icono Carrito Azul.png";
 
 
 const styles = {
-  span: { paddingLeft: 5, },
+  span: { paddingLeft: 10, },
   img: { height: 30, },
 };
 

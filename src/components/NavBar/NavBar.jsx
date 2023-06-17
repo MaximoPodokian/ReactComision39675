@@ -17,7 +17,7 @@ const NavBar = () => {
     getDocs(refCollection).then((snapshot) => {
       if (snapshot.size === 0) console.log("no hay resultados");
       else {
-        const categories = snapshot.docs.map( item => item.data().categoryId);
+        const categories = snapshot.docs.map( item => item.data().bebida);
         const uniqueCategories = new Set(categories);
         setItemsMenu([...uniqueCategories].sort());
       }
@@ -31,7 +31,7 @@ const NavBar = () => {
         <Nav className="me-auto">
           <NavLink to="/">INICIO</NavLink>
           {itemsMenu?.map((item) => (
-            <NavLink key={item} to={`/category/${item}`}>
+            <NavLink key={item} to={`/bebida/${item}`}>
               {item.toUpperCase()}
             </NavLink>
           ))}
