@@ -11,11 +11,11 @@ const ItemDetailContainer = () => {
 
   useEffect(() => {
     const db = getFirestore();
-    const refDoc = doc(db, "EVC, id");
+    const refDoc = doc(db, "EVC", id);
 
-    getDoc(refDoc).them((snapshot) =>
+    getDoc(refDoc).then((snapshot) =>
       setProduct({ id: snapshot.id, ...snapshot.data() })
-    );
+    )
   }, [id]);
 
   return (

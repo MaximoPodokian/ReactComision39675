@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+
 
 import CartWidget from "../CartWidget/CartWidget";
 
@@ -31,7 +32,7 @@ const NavBar = () => {
         <Nav className="me-auto">
           <NavLink to="/">INICIO</NavLink>
           {itemsMenu?.map((item) => (
-            <NavLink key={item} to={`/bebida/${item}`}>
+            <NavLink key={item} to={`/category/${item}`}>
               {item.toUpperCase()}
             </NavLink>
           ))}
