@@ -29,9 +29,7 @@ export const Cart = () => {
       if (response.id) {
         clear();
         alert("Su orden: " + response.id + " ha sido completada!");
-		clear();
       }
-      
     });
   };
 
