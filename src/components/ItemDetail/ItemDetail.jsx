@@ -1,5 +1,5 @@
 import { useContext} from "react"
-import  ItemCounter  from "../ItemCounter/ItemCounter"
+import ItemCounter  from "../ItemCounter/ItemCounter"
 import { CartContext } from "../../context/cartContext"
 
 

@@ -14,12 +14,12 @@ const Item = ({ item }) => (
 		</div>
 
 		<Card.Body>
-			<Card.Title>{item.nombre}</Card.Title>
-			<Card.Title>{item.tipo}</Card.Title>
+			<Card.Title>{item.nombre} {item.tipo}</Card.Title>
 			<Card.Text>Categoría: {item.bebida}</Card.Text>
 			<Link to={`/item/${item.id}`}>
-				<Button variant="primary">Ver detalle</Button>
+				<Button variant="primary">Detalles</Button>
 			</Link>
+			<mark>Stock: {item.stock}</mark>
 		</Card.Body>
 	</Card>
 )
