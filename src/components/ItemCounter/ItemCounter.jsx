@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import "./ItemCounter.css";
 
 const ItemCounter = ({ stock, onAdd, initial }) => {
   const [counter, setCounter] = useState(initial ?? 0);
@@ -20,26 +21,16 @@ const ItemCounter = ({ stock, onAdd, initial }) => {
       {stock > 0 ? (
         <>
           <InputGroup>
-            <Button variant="primary" onClick={handlerIncreaseCount}>
-              +
-            </Button>
+            <Button variant="primary" onClick={handlerIncreaseCount}> + </Button>
             <Form.Control value={counter} className="text=center" />
-            <Button variant="primary" onClick={handlerDecreaseCount}>
-               - 
-            </Button>
+            <Button variant="primary" onClick={handlerDecreaseCount}> - </Button>
           </InputGroup>
 
-          {!!counter &
+          {!!counter &&
           (
-            <Button
-              variant="outline-primary"
-              className="mt-4"
-              onClick={() => onAdd(counter)}
-            >
-              Agregar al Carrito de Compras
-            </Button>
+            <Button variant="outline-primary" className="mt-4-A" onClick={() => onAdd(counter)}> Agregar al Carrito </Button>
           )}
-          <div className="=mt-4">Stock disponible: {stock - counter}</div>
+           <div className="=mt-4"> Stock disponible: {stock - counter}</div>
         </>
       ) : (
         <>

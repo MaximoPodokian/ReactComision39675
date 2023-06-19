@@ -11,6 +11,7 @@ const ItemDetail = ({ product }) => {
 		<div>
 			<h1>{product.nombre}</h1>
 			<img src={product.imagen} heigth={300} alt={product.tipo} />
+			<p>{product.nombre} {product.tipo}</p>
 			<p>$ {product.precio}</p>
 			<p>Caracteristicas: {product.caracteristicas}</p>
 			<p>Composicion: {product.composicion}</p>
