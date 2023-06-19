@@ -14,7 +14,7 @@ const ItemDetailContainer = () => {
     const refDoc = doc(db, "EVC", id);
 
     getDoc(refDoc).then((snapshot) =>
-      setProduct({ id: snapshot.id, ...snapshot.data() })
+      setProduct({ id: snapshot.id, ...snapshot.data(), })
     )
   }, [id]);
 

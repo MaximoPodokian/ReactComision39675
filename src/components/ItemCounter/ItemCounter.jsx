@@ -24,8 +24,11 @@ const ItemCounter = ({ stock, onAdd, initial }) => {
               +
             </Button>
             <Form.Control value={counter} className="text=center" />
-            <Button variant="primary" onClick={handlerDecreaseCount}></Button>
+            <Button variant="primary" onClick={handlerDecreaseCount}>
+               - 
+            </Button>
           </InputGroup>
+
           {!!counter &
           (
             <Button
