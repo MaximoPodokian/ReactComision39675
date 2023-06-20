@@ -1,4 +1,5 @@
 import { useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
@@ -14,6 +15,7 @@ export const Cart = () => {
   });
 
   const { productosAgregados, deleteItem, clear } = useContext(CartContext);
+  const navegar=useNavigate();
 
   const sendOrder = () => {
     const order = {
@@ -30,6 +32,7 @@ export const Cart = () => {
         clear();
         alert("Su orden: " + response.id + " ha sido completada!");
       }
+      navegar("/")
     });
   };
 
